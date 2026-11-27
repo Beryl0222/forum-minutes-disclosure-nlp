@@ -1,0 +1,68 @@
+{
+  "routes": {
+    "北环货线": ["北环", "North Loop"],
+    "银湾线": ["银湾", "Silver Bay"],
+    "石岭线": ["石岭", "Shiling"]
+  },
+  "route_en": {
+    "北环货线": "North Loop",
+    "银湾线": "Silver Bay",
+    "石岭线": "Shiling"
+  },
+  "organizations": {
+    "辰谷货联": ["辰谷"],
+    "银湾港务": ["港区"],
+    "联合代表团": ["joint delegation", "delegation"]
+  },
+  "roles": {
+    "联运协调员": ["协调员", "coordinator"]
+  },
+  "bodies": {
+    "货运协调组": ["协调组", "Freight Working Group", "working group"]
+  },
+  "block_followers": {
+    "银湾": ["仓", "港"]
+  },
+  "tense": {
+    "current": ["现任", "current", "刚换岗"],
+    "former": ["前任", "former", "原"]
+  },
+  "anaphora": ["该协调员", "the coordinator", "he", "she", "they"],
+  "abbreviations": ["P.", "F.", "K.", "Mr.", "Mrs.", "Ms.", "Dr."],
+  "activities": {
+    "data_exchange": ["资料交换", "汇总指标", "aggregate metrics", "metrics", "exchange"],
+    "coverage_window": ["陪同窗口", "增开", "coverage", "service"],
+    "handover": ["交接单", "handover"]
+  },
+  "time_terms": {
+    "一月": "01", "二月": "02", "三月": "03", "四月": "04",
+    "五月": "05", "六月": "06", "七月": "07", "八月": "08",
+    "九月": "09", "十月": "10", "十一月": "11", "十二月": "12",
+    "下月": "next",
+    "January": "01", "February": "02", "March": "03", "April": "04",
+    "May": "05", "June": "06", "July": "07", "August": "08",
+    "September": "09", "October": "10", "November": "11", "December": "12"
+  },
+  "cues": {
+    "proposal": ["建议", "提议", "拟", "原则上", "一轮", "suggested", "suggestion", "proposal", "tentative", "test"],
+    "confirmed": ["确认", "同意", "核对", "confirmed", "agreed", "stand"],
+    "not_adopted": ["另行议定", "不是一回事", "还得问", "not adopted", "not a commitment"],
+    "pending": ["待", "目标", "no exact date", "target", "subject to confirmation"]
+  },
+  "attribution_verbs": ["发言", "提议", "建议", "说", "同意", "suggest", "suggested", "say", "said", "confirm", "confirmed", "state", "stated"],
+  "correction_pattern": "(?:Correction to|勘误[:：]?)\\s*([A-Za-z]+\\d+)",
+  "replacement": {
+    "person": {"zh": "有关参与方", "en": "a participating party"}
+  },
+  "issue_phrasing": {
+    "data_exchange": {"zh": "资料交换事宜", "en": "the data-exchange arrangement"},
+    "coverage_window": {"zh": "线路服务安排", "en": "the service arrangement"},
+    "handover": {"zh": "交接单试用事宜", "en": "the handover trial"}
+  },
+  "templates": {
+    "not_adopted": {
+      "zh": "{routes}相关提议本次会议未获采纳。",
+      "en": "The suggestion concerning {routes} was not adopted in this meeting."
+    }
+  }
+}
