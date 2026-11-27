@@ -1,0 +1,5 @@
+{"id":"p1","name":"许沛","aliases":["P. Xu","Pei Xu"],"organization":"辰谷货联","role":"联运协调员","period":["2026-08","2026-12"],"routes":["北环货线","银湾线"]}
+{"id":"p2","name":"许飞","aliases":["F. Xu"],"organization":"辰谷货联","role":"联运协调员","period":["2026-01","2026-07"],"routes":["北环货线"]}
+{"id":"p3","name":"云珂","aliases":["K. Yun"],"organization":"辰谷货联","role":"联运协调员","period":["2026-08","2026-12"],"routes":["北环货线","石岭线"]}
+{"id":"p4","name":"张栗","aliases":["Li Zhang"],"organization":"银湾港务","role":"联运协调员","period":["2026-08","2026-12"],"routes":["银湾线"]}
+{"id":"d1","name":"货运协调组","aliases":["Freight Working Group"],"organization":"联合代表团","role":"机构","period":["2026-01","2026-12"],"routes":["北环货线","银湾线","石岭线"]}
